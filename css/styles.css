@@ -1,6 +1,6 @@
 <!-- social icons buttons more -->
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
-.wrapper .button {
+.wrapper .button{
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -10,13 +10,13 @@
   background: #fff;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-out;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.4s ease-out;
 }
-.wrapper .button:hover {
+.wrapper .button:hover{
   width: 200px;
 }
-.wrapper .button .icon {
+.wrapper .button .icon{
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -26,72 +26,91 @@
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1):hover .icon {
-  background: #1877f2;  /* facebook - dark moderate blue */
-}
-.wrapper .button:nth-child(2):hover .icon {
-  background: #1da1f2;  /* twitter - vivid blue */
-}
-.wrapper .button:nth-child(3):hover .icon {
-  background: #ff0000;  /* youtube - pure red */
-}
-.wrapper .button:nth-child(4):hover .icon {
-  background: #0066c2;  /* linkedin - strong blue */
-}
-.wrapper .button:nth-child(5):hover .icon {
-  background: #fffc00;  /* snapchat - pure yellow */
-}
-.wrapper .button:nth-child(6):hover .icon {
-  background: #171515;  /* github - very dark (mostly black) red */
-}
-.wrapper .button:nth-child(7):hover .icon {
-  background: #b92b27;  /* quora - strong red */
-}
-.wrapper .button:nth-child(8):hover .icon {
-  background: #47cf73;  /* codepen -  moderate cyan - lime green */
-}
-.wrapper .button:nth-child(9):hover .icon {
-  background: #013720;  /* e-mail - dark green */
-}
-.wrapper .button .icon i {
+.wrapper .button .icon i{
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:hover .icon i {
+.wrapper .button .icon a{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
   color: #fff;
 }
-.wrapper .button span {
+.wrapper .button:hover .icon a{
+  color: #fff;
+}
+.wrapper .button:nth-child:hover(1) .icon{
+  background: #4267B2;  /* dark moderate blue */
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;  /* dark moderate blue */
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1da1f2;  /* vivid blue */
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #ff0000;  /* pure red */
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #0077b5;  /* strong blue */
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #fffc00;  /* dark yellow */
+}
+.wrapper .button:nth-child(6):hover .icon{
+  background: #171515;  /* very dark red */
+}
+.wrapper .button:nth-child(7):hover .icon{
+  background: #b92b27;  /* strong red */
+}
+.wrapper .button:nth-child(8):hover .icon{
+  background: #ff9900;  /* pure orange */
+}
+.wrapper .button:nth-child(9):hover .icon{
+  background: #037d50;  /* dark green */
+}
+.wrapper .button .icon a{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon a{
+  color: #fff;
+}
+.wrapper .button span{
   font-size: 20px;
   font-weight: 500;
   line-height: 60px;
   margin-left: 10px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1) span {
-  color: #1877f2;  /* facebook */
+.wrapper .button:nth-child(1) span{
+  color: #4267b2;  /* facebook */
 }
-.wrapper .button:nth-child(2) span {
+.wrapper .button:nth-child(2) span{
   color: #1da1f2;  /* twitter */
 }
-.wrapper .button:nth-child(3) span {
-  color: #ff0000;  /* youtube */
+.wrapper .button:nth-child(3) span{
+  color: #b2071d;  /* youtube */
 }
-.wrapper .button:nth-child(4) span {
-  color: #0066c2;  /* linkedin */
+.wrapper .button:nth-child(4) span{
+  color: #0077b5;  /* linkedin */
 }
-.wrapper .button:nth-child(5) span {
-  color: #fffc00;  /* snapchat */
+.wrapper .button:nth-child(5) span{
+  color: #bfa600;  /* snapchat */
 }
-.wrapper .button:nth-child(6) span {
+.wrapper .button:nth-child(6) span{
   color: #171515;  /* github */
 }
-.wrapper .button:nth-child(7) span {
+.wrapper .button:nth-child(7) span{
   color: #b92b27;  /* quora */
 }
-.wrapper .button:nth-child(8) span {
-  color: #47cf73;  /* codepen */
+.wrapper .button:nth-child(8) span{
+  color: #ff9900;  /* amazon */
 }
-.wrapper .button:nth-child(9) span {
-  color: #013720;  /* e-mail */
+.wrapper .button:nth-child(9) span{
+  color: #037d50;  /* e-mail */
 }
