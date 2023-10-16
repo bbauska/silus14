@@ -13,70 +13,70 @@ html,body{
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 body {
-	color:#FFF; 
-	font-family: 'Oswald', sans-serif; 
-	min-width:960px;
-	top:0;
-	left:0;
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin:0;
-	background:url(../images/Silus-and-Kitterson.jpg) no-repeat;
-	background-size:cover;
+  color:#FFF; 
+  font-family: 'Oswald', sans-serif; 
+  min-width:960px;
+  top:0;
+  left:0;
+  position:absolute;
+  height:100%;
+  width:100%;
+  margin:0;
+  background:url(../images/Silus-and-Kitterson.jpg) no-repeat;
+  background-size:cover;
 }
 .ie body {
-	filter: dropshadow(color=#000000, offx=0, offy=1);	
+  filter: dropshadow(color=#000000, offx=0, offy=1);	
 }
 h1 {
-	font-size:68px;
-	letter-spacing:-2px;	
-	line-height:60px;
-	margin:25px 0;  
-	text-align:center;
-	margin-left:15px;
-	padding-top:20px;
+  font-size:68px;
+  letter-spacing:-2px;	
+  line-height:60px;
+  margin:25px 0;  
+  text-align:center;
+  margin-left:15px;
+  padding-top:20px;
 }
 .ie h1 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-	padding-bottom:12px;	
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+  padding-bottom:12px;	
 }
 h2 { 
 }
 .ie h2 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+  filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
-	font-size:25px;
-	margin:0.2em 0; 
+  font-size:25px;
+  margin:0.2em 0; 
 }
 .ie h3 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+  filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h4 {
-	margin-bottom:5px;	
+  margin-bottom:5px;	
 }
 p, pre {
-	margin:0 0 10px 0; 
+  margin:0 0 10px 0; 
 }
 code {
-	text-transform:uppercase !important;
-	color:#EEE;	
-	border-bottom:1px dotted #666;
+  text-transform:uppercase !important;
+  color:#EEE;	
+  border-bottom:1px dotted #666;
 }
 small {
-	background:url(../images/alpha.png);
-	background:rgba(0, 0, 0, 0.8) url();	
-	border:1px solid #111;
-	font-size:15px;
-	padding:0 5px;
+  background:url(../images/alpha.png);
+  background:rgba(0, 0, 0, 0.8) url();	
+  border:1px solid #111;
+  font-size:15px;
+  padding:0 5px;
 }
 a {
-	color:rgba(0, 210, 255, 1);
-	text-decoration:none;	
+  color:rgba(0, 210, 255, 1);
+  text-decoration:none;	
 }
 a:hover {
-	color:#BBB;	
+  color:#BBB;	
 } 
 #Header {
 margin-bottom: 62px;
@@ -93,6 +93,13 @@ text-align: center;
 font-size: 48px;
 font-weight: 300;
 color:#00D2FF;
+}
+#Content h3 {
+text-align: center;
+font-size: 24px;
+font-weight: normal;
+display: block;
+clear: both;
 }
 
 .wrapper{
