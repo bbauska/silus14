@@ -238,3 +238,25 @@ color:#00D2FF;
   border: 1px solid rgba(255, 255, 255, 0.76);
 }
 
+#socialIcons {
+display:block;
+}
+#socialIcons ul {
+margin: 0px; 
+padding:0px;
+text-align: center;
+}
+#socialIcons ul li {
+margin-right: 5px;
+height: 34px;
+line-height: 34px;
+list-style-type: none;
+display: inline-block;
+background: rgba(255, 255, 255, 0.44);
+}
+#socialIcons ul li a{
+width:34px;
+height:34px; 
+display: inline-block;
+}
+
