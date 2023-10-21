@@ -1,17 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-html,body{
-  display: grid;
-  height: 100%;
-  width: 100%;
-  place-items: center;
-  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-}
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
 body {
   color:#FFF; 
   font-family: 'Oswald', sans-serif; 
@@ -22,15 +10,15 @@ body {
   height:100%;
   width:100%;
   margin:0;
-  background:url(../images/Silus-and-Kitterson.jpg) no-repeat;
+  background:url(images/Silus-and-Kitterson.jpg) no-repeat;
   background-size:cover;
 }
 .ie body {
-  filter: dropshadow(color=#000000, offx=0, offy=1);	
+  filter: dropshadow(color=#000000, offx=0, offy=1);    
 }
 h1 {
   font-size:68px;
-  letter-spacing:-2px;	
+  letter-spacing:-2px;    
   line-height:60px;
   margin:25px 0;  
   text-align:center;
@@ -39,7 +27,7 @@ h1 {
 }
 .ie h1 {
   filter: dropshadow(color=#000000, offx=0, offy=3);
-  padding-bottom:12px;	
+  padding-bottom:12px;    
 }
 h2 { 
 }
@@ -54,45 +42,37 @@ h3 {
   filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h4 {
-  margin-bottom:5px;	
+  margin-bottom:5px;    
 }
 p, pre {
   margin:0 0 10px 0; 
 }
 code {
   text-transform:uppercase !important;
-  color:#EEE;	
+  color:#EEE;    
   border-bottom:1px dotted #666;
 }
 small {
   background:url(../images/alpha.png);
-  background:rgba(0, 0, 0, 0.8) url();	
+  background:rgba(0, 0, 0, 0.8) url();    
   border:1px solid #111;
   font-size:15px;
   padding:0 5px;
 }
 a {
   color:rgba(0, 210, 255, 1);
-  text-decoration:none;	
+  text-decoration:none;    
 }
 a:hover {
-  color:#BBB;	
-} 
-#Header {
-margin-bottom: 62px;
-position: relative;
-width: 100%;
-height: 119px;
-line-height: 118px;
-z-index: 1;
+  color:#BBB;    
 }
-#Content h2 {
-margin: 0px 0px 65px 0px;
-padding: 0px;
-text-align: center;
-font-size: 48px;
-font-weight: 300;
-color:#00D2FF;
+#Header {
+  margin-bottom: 62px;
+  position: relative;
+  width: 100%;
+  height: 119px;
+  line-height: 118px;
+  z-index: 1;
 }
 #Content h3 {
 text-align: center;
@@ -102,127 +82,28 @@ display: block;
 clear: both;
 }
 
-.wrapper{
-  display: inline-flex;
+#subscribe p{
+text-align:center;
 }
-.wrapper .icon{
-  margin: 0 20px;
-  text-align: center;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
-  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+#subscribe input {
+background: rgba(255, 255, 255, 0.52); 
+color: #000;
+font: bold 19px;  
+vertical-align: middle;
+width: 293px;
+border: 1px solid rgba(255, 255, 255, 0.76);
+padding: 10px;
 }
-.wrapper .icon span{
-  display: block;
-  height: 60px;
-  width: 60px;
-  background: #fff;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.wrapper .icon span i{
-  line-height: 60px;
-  font-size: 25px;
-}
-.wrapper .icon .tooltip{
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  background: #fff;
-  color: #fff;
-  padding: 10px 18px;
-  font-size: 20px;
-  font-weight: 500;
-  border-radius: 25px;
-  opacity: 0;
-  pointer-events: none;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.wrapper .icon:hover .tooltip{
-  top: -70px;
-  opacity: 1;
-  pointer-events: auto;
-}
-.icon .tooltip:before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: #fff;
-  left: 50%;
-  bottom: -6px;
-  transform: translateX(-50%) rotate(45deg);
-  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.wrapper .icon:hover span{
-  color: #fff;
-}
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip{
-  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
-}
-.wrapper .facebook:hover span,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip:before{
-  background: #0165e1;
-}
-.wrapper .youtube:hover span,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip:before{
-  background: #ff0000;
-}
-.wrapper .twitter:hover span,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip:before{
-  background: #1da1f2;
-}
-.wrapper .snapchat:hover span,
-.wrapper .snapchat:hover .tooltip,
-.wrapper .snapchat:hover .tooltip:before{
-  background: #fffc00;
-}
-.wrapper .github:hover span,
-.wrapper .github:hover .tooltip,
-.wrapper .github:hover .tooltip:before{
-  background: #6cc644;
-}
-.wrapper .codepen:hover span,
-.wrapper .codepen:hover .tooltip,
-.wrapper .codepen:hover .tooltip:before{
-  background: 0ebeff;
-}
-.wrapper .linkedin:hover span,
-.wrapper .linkedin:hover .tooltip,
-.wrapper .linkedin:hover .tooltip:before{
-  background: #0066c2;
-}
-.wrapper .quora:hover span,
-.wrapper .quora:hover .tooltip,
-.wrapper .quora:hover .tooltip:before{
-  background: #b92b27;
-}
-.wrapper .amazon:hover span,
-.wrapper .amazon:hover .tooltip,
-.wrapper .amazon:hover .tooltip:before{
-  background: #ff9900;
-}
-.wrapper .email:hover span,
-.wrapper .email:hover .tooltip,
-.wrapper .email:hover .tooltip:before{
-  background: #037d50;
+#subscribe input[type="button"]{
+background: rgba(255, 255, 255, 1);
+width:auto;
+padding: 9px 25px;
+cursor: pointer;
+margin-left: -5px;
 }
 
 .countdown {
-  text-align:center;
+text-align:center;
 }
 .styled{
   margin-bottom: 90px;
@@ -244,26 +125,214 @@ clear: both;
   vertical-align: middle; 
   border: 1px solid rgba(255, 255, 255, 0.76);
 }
+/*
+#overlay{
+background: rgba(0, 0, 0, 0.56) url(../images/overlays/01.png) top left repeat;
+position: fixed;
+top: 0px;
+width: 100%;
+bottom: 0px;
+opacity:0.8;
+}
+*/
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  border-top: 1px solid #cecece;
+  padding-top: 3px;
+  font-size: 19px;
+  font-weight: normal; 
+  text-align: center;
+}
+footer{
+width:100%;
+height:30px;
+background:rgba(0, 0, 0, 0.64);
+position:absolute;
+bottom:0px;
+}
+footer span{
+float:right;
+margin:10px;
+}
+@media(max-width:768px){
+    body {
+    min-width: initial !important;
+    }
+    .wrapper{width:100%;}
+    .styled div {
+      margin-bottom:10px; 
+    }
+}
+@media(max-width:420px){
+    h1{
+    float:initial;
+    text-align: center;
+    margin-left:0px;
+    margin-bottom:0px;
+    }
+    .styled div {
+      margin-bottom:10px;
+      font-size: 40px;
+      font-weight: normal; 
+      text-align: center;
+      width:80px; 
+      border-radius:80px; 
+      height:80px;  
+    }
+#Content h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+    }
+.styled {
+    margin-bottom: 30px;
+    }
+#subscribe input[type="button"]{
+    margin-top:10px;
+    }
+#subscribe input{
+    width:80%;
+    }
+    footer{
+    position:relative !important;
+    }
+}
+/* Silus */
+// Please change your favorite font-size!
+$fontSize: 8rem;
 
-#socialIcons {
-display:block;
-}
-#socialIcons ul {
-margin: 0px; 
-padding:0px;
-text-align: center;
-}
-#socialIcons ul li {
-margin-right: 5px;
-height: 34px;
-line-height: 34px;
-list-style-type: none;
-display: inline-block;
-background: rgba(255, 255, 255, 0.44);
-}
-#socialIcons ul li a{
-width:34px;
-height:34px; 
-display: inline-block;
+body {
+  background: rgba(20, 5, 5, 1);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  perspective: 800px;
 }
 
+div {
+  transform-style: preserve-3d;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 920px;
+  z-index: 1;
+}
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267b2;  /* facebook */
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #ff0000;  /* youtube */
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #1da1f2;  /* twitter */
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #fffc00;  /* snapchat */
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #4078c0;  /* github */
+}
+.wrapper .button:nth-child(6):hover .icon{
+  background: #0ebeff;  /* codepen */
+}
+.wrapper .button:nth-child(7):hover .icon{
+  background: #0a66c2;  /* linkedin */
+}
+.wrapper .button:nth-child(8):hover .icon{
+  background: #b92b27;  /* quora */
+}
+.wrapper .button:nth-child(9):hover .icon{
+  background: #ff9900;  /* amazon */
+}
+.wrapper .button:nth-child(10):hover .icon{
+  background: #037d50;  /* email */
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267b2;  /* facebook */
+}
+.wrapper .button:nth-child(2) span{
+  color: #ff0000;  /* youtube */
+}
+.wrapper .button:nth-child(3) span{
+  color: #1da1f2;  /* twitter */
+}
+.wrapper .button:nth-child(4) span{
+  color: #fffc00;  /* snapchat */
+}
+.wrapper .button:nth-child(5) span{
+  color: #4078c0;  /* github */
+}
+.wrapper .button:nth-child(6) span{
+  color: #0ebeff;  /* codepen */
+}
+.wrapper .button:nth-child(7) span{
+  color: #0a66c2;  /* linkedin */
+}
+.wrapper .button:nth-child(8) span{
+  color: #b92b27;  /* quora */
+}
+.wrapper .button:nth-child(9) span{
+  color: #ff9900; /* amazon */
+}
+.wrapper .button:nth-child(10) span{
+  color: #037d50;  /* e-mail */
+}
