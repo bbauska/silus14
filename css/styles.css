@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
 body {
-  color:#FFF; 
+  color:#fff;  /* white */
   font-family: 'Oswald', sans-serif; 
   min-width:960px;
   top:0;
@@ -14,7 +14,7 @@ body {
   background-size:cover;
 }
 .ie body {
-  filter: dropshadow(color=#000000, offx=0, offy=1);    
+  filter: dropshadow(color=#000000, offx=0, offy=1);  /* black */
 }
 h1 {
   font-size:68px;
@@ -49,13 +49,13 @@ p, pre {
 }
 code {
   text-transform:uppercase !important;
-  color:#EEE;    
-  border-bottom:1px dotted #666;
+  color:#eeeeee;  /* very light gray */
+  border-bottom:1px dotted #666;  /* very dark gray */
 }
 small {
   background:url(../images/alpha.png);
   background:rgba(0, 0, 0, 0.8) url();    
-  border:1px solid #111;
+  border:1px solid #111;  /* very dark gray */
   font-size:15px;
   padding:0 5px;
 }
@@ -64,7 +64,7 @@ a {
   text-decoration:none;    
 }
 a:hover {
-  color:#BBB;    
+  color:#bbb;  /* gray */
 }
 #Header {
   margin-bottom: 62px;
@@ -136,7 +136,7 @@ text-align:center;
 }
 .styled div span {
   display: block;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #cecece;  /* light gray */
   padding-top: 3px;
   font-size: 19px;
   font-weight: normal; 
@@ -209,7 +209,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #fff;  '/* white */
   perspective: 800px;
 }
 
