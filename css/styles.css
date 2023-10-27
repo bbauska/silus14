@@ -1,4 +1,4 @@
-<!-- styles of silus12.bauska.org -->
+<!-- styles of silus14.bauska.org -->
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -7,12 +7,16 @@
   font-family: 'Poppins', sans-serif;
 }
 html, body{
+  background: url(images/Silus-and-Kitterson.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display:grid;
   height:100%;
   width: 100%;
   place-items:center;
-  background:url('../images/Silus Halloween.jpg') no-repeat;
-  background-size:cover;
+}
 h1 {
   font-size:68px;
   letter-spacing:-2px;	
