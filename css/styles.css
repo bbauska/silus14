@@ -97,7 +97,7 @@ a:hover {
   display: block;
   height: 60px;
   width: 60px;
-  background: #fff;
+<!--  background: #fff; -->
   border-radius: 50%;
   position: relative;
   z-index: 2;
@@ -112,7 +112,7 @@ a:hover {
   position: absolute;
   top: 0;
   z-index: 1;
-  background: #fff;
+<!--  background: #fff; -->
   color: #fff;
   padding: 10px 18px;
   font-size: 20px;
