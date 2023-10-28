@@ -200,7 +200,7 @@ a:hover {
   content: "";
   height: 15px;
   width: 15px;
-<!--  background: #fff; -->
+  background: #fff;
   left: 50%;
   bottom: -6px;
   transform: translateX(-50%) rotate(45deg);
