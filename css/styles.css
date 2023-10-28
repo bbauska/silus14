@@ -97,7 +97,7 @@ a:hover {
   display: block;
   height: 60px;
   width: 60px;
-<!--  background: #fff; -->
+  background: #fff;
   border-radius: 50%;
   position: relative;
   z-index: 2;
@@ -138,7 +138,7 @@ a:hover {
   padding-top: 20px;
 }
 .wrapper .icon:hover span{
-<!--  color: #fff; -->
+  color: #fff;
   text-align: center;
 }
 .wrapper .icon:hover span,
@@ -260,7 +260,7 @@ a:hover {
 }
 .styled div span {
   display: block;
-  border-top: 1px solid #c15c15;
+  border-top: 1px solid none;
   padding-top: 3px;
   font-size: 19px;
   font-weight: normal; 
