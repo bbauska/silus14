@@ -193,7 +193,7 @@ a:hover {
 .wrapper .email:hover span,
 .wrapper .email:hover .tooltip,
 .wrapper .email:hover .tooltip:before{
-  background: #006400;  /* very dark lime green */
+  background: #00b100;  /* dark lime green */
 }
 .icon .tooltip: before{
   position: absolute;
