@@ -3,7 +3,7 @@ $( function() {
   // add background image - 3rd countdown to 14th birthday 10/11/2024.  Started with 11th birthday on 10/11/21.
   $.backstretch(images/Silus-and-Kitterson.jpg);
   // date of birth: 10/11/10.
-  var endDate = "Oct  11, 2024 23:59:59";
+  var endDate = "Oct  11, 2024 11:59:59";
   $('.countdown.simple').countdown({ date: endDate });
   $('.countdown.styled').countdown({
     date: endDate,
