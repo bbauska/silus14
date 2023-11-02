@@ -59,7 +59,7 @@ a {
   text-decoration:none;
 }
 a:hover {
-  color:#BBB;
+  color:#bbb;
 } 
 
 #Header {
@@ -123,7 +123,6 @@ a:hover {
   opacity: 1;
   pointer-events: auto;
 }
-
 .wrapper h1 {
   font-size:68px;
   letter-spacing:-2px;	
@@ -191,6 +190,7 @@ a:hover {
 .wrapper .email:hover .tooltip:before{
   background: #00b100;  /* very dark lime green */
 }
+
 .icon .tooltip:before{
   position: absolute;
   content: "";
