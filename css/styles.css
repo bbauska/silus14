@@ -12,8 +12,9 @@ html, body{
   width: 100%;
   place-items:center;
   background:url(../images/Silus-and-Kitterson-500.jpg) no-repeat;
-  background-size:cover;
 }
+/*  background-size:cover; */
+
 h1 {
   font-size:68px;
   letter-spacing:-2px;	
