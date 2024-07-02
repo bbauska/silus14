@@ -1,9 +1,9 @@
 /* global.js - theme by: brian a. bauska (grandpa) */
 $( function() {
-  // add background image - 3rd countdown to 14th birthday 10/11/2024.  Started with 11th birthday on 10/11/21.
+  // add background image - 3rd countdown to 14th birthday 10/11/2024. Set to 10/12 @3:59:59am. Started with 11th birthday on 10/11/21.
   $.backstretch('images/Silus-and-Kitterson-500.jpg');
   // date of birth: 10/11/10.
-  var endDate = "Oct  11, 2024 11:59:59";
+  var endDate = "Oct  12, 2024 3:59:59";
   $('.countdown.simple').countdown({ date: endDate });
   $('.countdown.styled').countdown({
     date: endDate,
