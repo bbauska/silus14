@@ -12,6 +12,7 @@ html, body{
   width: 100%;
   place-items:center;
   background:url(../images/July-2-2024-kitty.png) no-repeat;
+  background-size:cover;
 }
 /*  background-size:cover; */
 
